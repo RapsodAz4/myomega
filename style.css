@@ -11,6 +11,10 @@ body {
     color: #0097a7;
 }
 
+.Autor{
+    color: aliceblue;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -19,8 +23,8 @@ body {
     min-height: 300px; /* Altura mínima para que se note el fondo */
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
-    background: linear-gradient(135deg, #80f2ff, #c780ff); /* Degradado diagonal aqua a morado */
+    box-shadow: 0 8px 16px rgba(48, 47, 47, 0.2); /* Sombra más pronunciada */
+    background: linear-gradient(135deg, #282a2b, #2e2535); /* Degradado diagonal aqua a morado */
     background-size: 200% 200%;
     animation: gradientAnimation 8s ease infinite; /* Animación sutil del degradado */
 }
@@ -63,7 +67,7 @@ body {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
 }
 
@@ -74,8 +78,8 @@ body {
 #randomPhrase {
     margin-top: 20px;
     font-size: 1.1em;
-    color: #333;
+    color: #e7dddd;
     text-align: center;
     font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); /* Ligera sombra de texto */
+    text-shadow: 1px 1px 2px rgba(27, 26, 26, 0.5); /* Ligera sombra de texto */
 }
