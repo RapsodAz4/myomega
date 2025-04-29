@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyOmega</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="Welcome">Hola, Bienvenid@!</h1>
+    <h2 class="Welcome">Presiona el botón y observa la magia</h2>
+    <div class="container">
+        <img id="mainImage" src="./img/MORADITO.PNG" alt="Imagen Principal" class="imageRandom">
+        <p id="randomPhrase">Siempre fuimos un "hasta pronto", mas nunca supimos olvidarnos</p>
+        <p class="Autor">Frases del poeta RapsodAz, seudónimo de Mario Hernandez</p>
+        <div>
+            <a href="#image1" onclick="document.getElementById('mainImage').src='./img/AQUA.png'; document.getElementById('randomPhrase').innerText='Siempre que veas un atardecer, recuerda que morí amando las cosas sencillas de la vida.';">Imagen 1</a>
+            <a href="#image2" onclick="document.getElementById('mainImage').src='./img/AZUL.png'; document.getElementById('randomPhrase').innerText='Nunca digas nunca... porque el destino escucha que esa petición es la que por ley tiene que cumplirse más rápido.';">Imagen 2</a>
+            <a href="#image3" onclick="document.getElementById('mainImage').src='./img/MORADITO.png'; document.getElementById('randomPhrase').innerText='¡Ay amor! El querer siempre trae consigo un poco de dolor y caminos de nostalgia.';">Imagen 3</a>
+            <!-- Agrega más enlaces según sea necesario -->
+        </div>
+    </div>
+</body>
+</html>
